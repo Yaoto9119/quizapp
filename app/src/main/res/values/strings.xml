@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="q1">1. Which planet is closest to the sun?</string>
+    <string name="q1a">Mercury</string>
+    <string name="q1b">Mars</string>
+    <string name="q1c">Venus</string>
+    <string name="q1d">Uranus</string>
+
+    <string name="q2">2. What force bends light rays travelling though the universe?</string>
+    <string name="q2a">Electromagnetic Force</string>
+    <string name="q2b">Strong Nuclear Force</string>
+    <string name="q2c">Weak Nuclear Force</string>
+    <string name="q2d">Gravitational Force</string>
+
+    <string name="q3">3. Which is the largest moon in the solar system?</string>
+    <string name="q3a">Callisto</string>
+    <string name="q3b">Ganymede</string>
+    <string name="q3c">Enceladus</string>
+    <string name="q3d">Io</string>
+
+    <string name="q4">4. Which planet is the densest?</string>
+    <string name="q4a">Pluto</string>
+    <string name="q4b">Mars</string>
+    <string name="q4c">Earth</string>
+    <string name="q4d">Saturn</string>
+
+    <string name="q5">5. Which planet is named after the Roman god of war?</string>
+    <string name="q5a">Mars</string>
+    <string name="q5b">Venus</string>
+    <string name="q5c">Mercury</string>
+    <string name="q5d">Uranus</string>
+    <string name="next">Next</string>
+
+
+</resources>

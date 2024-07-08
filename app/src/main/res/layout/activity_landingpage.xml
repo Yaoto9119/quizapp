@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt1"
+        android:text="Hello,"
+        android:layout_marginStart="60dp"
+        android:textSize="40sp"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/white"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt2"
+        android:textSize="60sp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="-20dp"
+        android:text="User"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:id="@+id/logo"
+        android:importantForAccessibility="no"
+        android:src="@drawable/logo1"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/take"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:text="Take Quiz"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:background="@drawable/btnol"
+        android:textSize="15sp"
+        tools:ignore="HardcodedText,UnusedAttribute" />
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="Exit"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:background="@drawable/btnol2"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
